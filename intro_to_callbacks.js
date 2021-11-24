@@ -28,19 +28,11 @@ class Clock {
         // 1. Increment the time by one second.
         // 2. Call printTime.
         this.seconds += 1;
-        if (this.seconds < 10) {
-
-        } elsif (this.seconds >= 60 {
-
-        }
-
-
-        debugger
         this.printTime();
     }
 }
 
-const clock2 = new Clock();
+//const clock2 = new Clock();
 
     
 
@@ -60,7 +52,22 @@ const clock2 = new Clock();
 
 
 // function calling
+Function.prototype.myBind = function(context) {
+    console.log("ran");
+    console.log(context);
+}
 
+
+
+myTestFunc = function() {
+    console.log("worked");
+}
+
+
+
+
+
+//myTestFunc.myBind
 
 
 
